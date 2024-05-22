@@ -79,7 +79,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /revent
         backend:
           service:
             name: my-lb-service
